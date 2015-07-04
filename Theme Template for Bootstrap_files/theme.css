@@ -1,0 +1,71 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+
+
+
+
+.tenkey {
+  border: 1px solid black;
+  padding: 1px;
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content; /* Chrome */
+}
+
+.tenkey h2 {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.tenkey ul {
+  list-style:none;
+  display: block;
+  font-size: 0;
+  margin-bottom: -1px;
+  padding-left: 0;
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content; /* Chrome */
+}
+
+.tenkey li {
+  display: inline;
+  font-size:0;
+}
+
+.tenkey button {
+  width:2.45em;
+  margin-bottom: 0;
+}
+
+.tenkey .tallbtn {
+  /* ul height (46) + default bottom padding(10) divided by font size(18))*/
+  padding-bottom: 3.05555555555556em;
+  display:inline;
+  margin-bottom:-2.5em;
+}
+
+.tenkey .widebtn {
+  padding-right: 3.88888888888889em;
+}
+
+.numButtonDiv {
+  border: 1px solid yellow;
+}
